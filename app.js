@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 // Define a port number
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 // Middleware to parse JSON
 app.use(express.json());
